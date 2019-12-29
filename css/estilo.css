@@ -25,3 +25,83 @@ h1 {
 	background: url("../imagens/logo.png") center;
 	text-indent: -3000px;
 }
+
+ul#navegacao {
+	padding-top: 40px;
+	list-style-type: none;
+}
+
+ul#navegacao li {
+	float: left;
+}
+
+ul#navegacao li a {
+	font-size: 0.9em;
+	padding: 0.75em 1.5em;
+	color: #FFF;
+	text-decoration: none;
+	background: #b10333 url("../imagens/divisor.png") no-repeat left;
+}
+
+ul#navegacao li a.primeiro {
+	background: #b10333;
+}
+
+ul#navegacao li a:hover {
+	color: #69001D;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos {
+	background: #de003e;
+	color: #FFF;
+	cursor: text;
+}
+
+body.home #navegacao li+li>a#brasil,
+body.brasil #navegacao li+li>a#internacional,
+body.internacional #navegacao li+li>a#economia,
+body.economia #navegacao li+li>a#saude,
+body.saude #navegacao li+li>a#ciencia,
+body.ciencia #navegacao li+li>a#fotos {
+	background: #B10333;
+}
+
+#conteudo-lateral {
+	margin-top: 75px;
+	padding: 10px;
+	width: 150px;
+	height: 350px;
+	background: url("../imagens/fundo-caixa.png");
+	float: left;
+}
+
+#conteudo-lateral h3 {
+	background: blue;
+	color: #FFF;
+}
+
+#conteudo-lateral div {
+	background: #FFF;
+	margin-top: 10px;
+}
+
+#conteudo-lateral div a {
+	color: blue;
+	text-decoration: none;
+	padding: 10px 10px;
+	display: block;
+}
+
+#conteudo-principal {
+	margin-top: 75px;
+	width: 550px;
+	height: 500px;
+	border: 1px solid red;
+	float: right;
+}
