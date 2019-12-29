@@ -81,7 +81,7 @@ body.ciencia #navegacao li+li>a#fotos {
 	float: left;
 }
 
-#conteudo-lateral h3 {
+#conteudo-lateral h3, .caixa-esquerda h3, .caixa-direita h3 {
 	background: blue;
 	color: #FFF;
 }
@@ -101,7 +101,55 @@ body.ciencia #navegacao li+li>a#fotos {
 #conteudo-principal {
 	margin-top: 75px;
 	width: 550px;
-	height: 500px;
-	border: 1px solid red;
+	height: 700px;
 	float: right;
+}
+
+.caixa-esquerda {
+	padding: 10px;
+	width: 240px;
+	height: 290px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	float: left;
+	background: url("../imagens/fundo-caixa.png");
+
+}
+
+.caixa-direita {
+	padding: 10px;
+	width: 240px;
+	height: 290px;
+	margin-bottom: 15px;
+	float: left;
+	background: url("../imagens/fundo-caixa.png");
+}
+
+.caixa-esquerda span {
+	background: #de003e;
+	color: #000;
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+
+.caixa-esquerda div, .caixa-direita div {
+	margin-top: 10px;
+	background: #FFF;
+	padding: 5px;
+}
+
+.caixa-esquerda img, .caixa-direita img {
+	width: 100%;
+	height: 100%;
+}
+
+.caixa-direita span {
+	background: #b10333;
+	color: #FFF;
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 2px;
 }
