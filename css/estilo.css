@@ -8,3 +8,20 @@ body {
 	background: #fff url("../imagens/fundo.png") repeat-x;
 }
 
+#container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#topo {
+	height: 150px;
+	background: url("../imagens/detalhe-topo.png") no-repeat right;
+	padding-top: 25px;
+}
+
+h1 {
+	width: 152px;
+	height: 66px;
+	background: url("../imagens/logo.png") center;
+	text-indent: -3000px;
+}
