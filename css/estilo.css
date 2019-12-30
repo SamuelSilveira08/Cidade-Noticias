@@ -76,32 +76,61 @@ body.ciencia #navegacao li+li>a#fotos {
 	margin-top: 75px;
 	padding: 10px;
 	width: 150px;
-	height: 350px;
+	height: 420px;
 	background: url("../imagens/fundo-caixa.png");
 	float: left;
 }
 
-#conteudo-lateral h3, .caixa-esquerda h3, .caixa-direita h3 {
-	background: blue;
+#news {
+	width: 150px;
+	margin-top: 22px;
+	float: left;
+	padding: 10px;
+	background: url("../imagens/fundo-caixa.png");
+}
+
+#conteudo-lateral h3, #news h3, .caixa-esquerda h3, .caixa-direita h3 {
+	padding: 3px;
+	background: #294C71;
 	color: #FFF;
 }
 
-#conteudo-lateral div {
+#conteudo-lateral div, #news div {
 	background: #FFF;
+	margin-top: 10px;
+	padding: 15px;
+}
+
+#news div form input[type="email"] {
+	margin-top: 5px;
+	width: 100%;
+}
+
+#news input[type="submit"] {
+	width: 75%;
+	background: #B10333;
+	color: #FFF;
+	height: 30px;
+	border: none;
+	margin-top: 10px;
+}
+
+#conteudo-lateral div+h3 {
 	margin-top: 10px;
 }
 
 #conteudo-lateral div a {
-	color: blue;
+	color: #294C71;
 	text-decoration: none;
-	padding: 10px 10px;
+	padding: 8px 8px;
 	display: block;
 }
 
 #conteudo-principal {
+	margin-bottom: 10px;
 	margin-top: 75px;
 	width: 550px;
-	height: 700px;
+	height: 660px;
 	float: right;
 }
 
@@ -138,6 +167,7 @@ body.ciencia #navegacao li+li>a#fotos {
 	margin-top: 10px;
 	background: #FFF;
 	padding: 5px;
+	float: left;
 }
 
 .caixa-esquerda img, .caixa-direita img {
@@ -152,4 +182,63 @@ body.ciencia #navegacao li+li>a#fotos {
 	display: inline-block;
 	margin-bottom: 5px;
 	padding: 2px;
+}
+
+img.mundo {
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.mundo~p {
+	font-size: 0.8em;
+	position: relative;
+	right: -10px;
+}
+
+.mundo+h5 {
+	color: blue;
+	font-weight: normal;
+	position: relative;
+	right: -10px;
+}
+
+.caixa-mundo {
+	padding: 10px;
+	width: 240px;
+	height: 310px;
+	float: left;
+	background: url("../imagens/fundo-caixa.png");
+	margin-bottom: 10px;
+}
+
+.caixa-noticias {
+	padding: 10px;
+	width: 240px;
+	height: 310px;
+	float: right;
+	background: url("../imagens/fundo-caixa.png");
+	margin-bottom: 10px;
+}
+
+.caixa-mundo div, .caixa-noticias div {
+	margin-top: 10px;
+	background: #FFF;
+	padding: 5px;
+	float: left;
+}
+
+.caixa-mundo h3, .caixa-noticias h3 {
+	padding: 3px;
+	background: #294C71;
+	color: #FFF;
+}
+
+#rodape {
+	clear: both;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #294C71;
+	color: #FFF;
 }
