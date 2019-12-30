@@ -127,11 +127,11 @@ body.ciencia #navegacao li+li>a#fotos {
 }
 
 #conteudo-principal {
-	margin-bottom: 10px;
 	margin-top: 75px;
 	width: 550px;
 	height: 660px;
 	float: right;
+	margin-bottom: 10px;
 }
 
 .caixa-esquerda {
